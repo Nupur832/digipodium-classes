@@ -9,4 +9,3 @@ elif '.com' not in email and '.org' not in email:
 else:
     print('your email look valid')
     
-    

@@ -1,3 +1,4 @@
+
 # name = int(input("Enter ur name: "))
 # college = int(input("Where do you study: "))
 # city = int(input('city name: ')
@@ -6,7 +7,6 @@ Age = int(input("Enter ur age: "))
 # print(name, college, city, age, animal)
 Age = int(Age) 
 print(Age, type(Age))
-
 a = int(input('Enter a number: '))
 b = int(input('Enter a number: '))
 print( a + b )
