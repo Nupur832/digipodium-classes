@@ -8,4 +8,3 @@ while True:
         break
 print('total =',ans)
 
-      
