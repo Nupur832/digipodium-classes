@@ -7,3 +7,14 @@ for letter in ascii_lowercase:
     print(f'{letter} found {counter} times')
 
 # WAP to find the most occuring alphabet and its frequency
+
+
+freq=0
+freq_letter = ''
+for letter in ascii_lowercase:
+    counter = data.count(letter)
+    print(f'{letter} found {counter} times')
+    if freq < counter:
+        freq=counter  #70510
+        freq_letter=letter # e
+    print(f'most frequent letter is {freq_letter} occurs {freq} times')
