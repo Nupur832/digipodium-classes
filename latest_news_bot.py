@@ -1,8 +1,9 @@
-import requests
-from bs4 import BeautifulSoup
 import os
+import requests
 import datetime
 import pandas as pd
+from bs4 import BeautifulSoup
+
 
 
 def get_soup(url):
